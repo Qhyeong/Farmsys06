@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from model import load_model, predict_sentence, predict_words, filter_harmful_words
+from app.model import load_model, predict_sentence, predict_words, filter_harmful_words
 from fastapi.middleware.cors import CORSMiddleware
 
 # ✅ CORS 포함한 FastAPI 인스턴스를 단 한 번 생성
