@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # ✅ 모델 로딩
-tokenizer, model = load_model("./finetuned-kcbert")
+tokenizer, model = load_model("Qhyeong/4thfarmai06")
 
 # ✅ 요청 바디 정의
 class TextRequest(BaseModel):
